@@ -17,11 +17,19 @@ import android.widget.ToggleButton;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.test.R;
+import com.example.test.databinding.MainActivityBinding;
+
+
 public class MainActivity extends AppCompatActivity {
+private MainActivityBinding mainActivityBinding;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(android.R.layout.activity_list_item);
+        mainActivityBinding = MainActivityBinding.inflate(getLayoutInflater());
+        View view =mainActivityBinding.getRoot();
+        setContentView(view);
 
     }
 }
