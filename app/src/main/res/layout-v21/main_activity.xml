@@ -14,7 +14,7 @@
         android:textSize="30sp"
         tools:text="My DashBoard"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/colorWhite"
         />
 
 
@@ -23,8 +23,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-    <Bottom
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
 
-
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </LinearLayout>
