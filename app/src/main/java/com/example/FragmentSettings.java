@@ -21,18 +21,8 @@ public class FragmentSettings extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
         fragmentSettingsBinding = FragmentSettingsBinding.inflate(inflater ,container ,false);
-        View view = fragmentSettingsBinding.getRoot();
-        return view;
+        return fragmentSettingsBinding.getRoot();
 
-
-
-    }
-
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        fragmentSettingsBinding = null;
     }
 }

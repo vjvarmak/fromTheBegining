@@ -21,13 +21,8 @@ public class FragmentPoints extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
         fragmentPointsBinding = FragmentPointsBinding.inflate(inflater ,container ,false);
-        View view = fragmentPointsBinding.getRoot();
-        return view;
-
-
-
+        return fragmentPointsBinding.getRoot();
     }
 
     @Override
