@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tabLayoutHome"
+        android:title="Trips"
+        android:icon="@drawable/ic_trips"
+        />
+    <item
+        android:id="@+id/points"
+        android:title="Points"
+        android:icon="@drawable/ic_points"
+        />
+    <item
+        android:id="@+id/account"
+        android:title="Trips"
+        android:icon="@drawable/ic_account"
+        />
+</menu>

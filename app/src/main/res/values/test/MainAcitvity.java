@@ -1,4 +1,4 @@
-package com.example.test;
+package com.App.test;
 
 public class MainAcitvity {
 }
