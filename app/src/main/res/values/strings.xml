@@ -6,4 +6,6 @@
     <string name="notification">Notification</string>
     <string name="settings">Settings</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bt_login">Continue</string>
+    <string name="tv_choose_date"><b><u>Please Select Date</u></b></string>
 </resources>

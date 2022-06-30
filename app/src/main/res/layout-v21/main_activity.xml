@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.MainActivity">
+    tools:context="com.App.Activity.MainActivity">
 
     <FrameLayout
         android:id="@+id/container"
@@ -20,6 +20,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@color/colorWhite"
+        app:itemIconTint="@drawable/navigation_text_color"
+        app:itemTextColor="@drawable/navigation_text_color"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/bottom_navigation" />
 
